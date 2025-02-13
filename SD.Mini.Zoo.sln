@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD.Mini.Zoo.Console", "src\SD.Mini.Zoo.Console\SD.Mini.Zoo.Console.csproj", "{1C48E03E-7A56-41D6-9CFD-EC5DB0E8BAE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD.Mini.Zoo.Domain", "src\SD.Mini.Zoo.Domain\SD.Mini.Zoo.Domain.csproj", "{99FB81FA-9964-48C3-ADE0-46DE849A43E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD.Mini.Zoo.Infrastructure", "src\SD.Mini.Zoo.Infrastructure\SD.Mini.Zoo.Infrastructure.csproj", "{B67CA1B7-F7FA-4E29-A1B6-F0DB588C83CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C48E03E-7A56-41D6-9CFD-EC5DB0E8BAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C48E03E-7A56-41D6-9CFD-EC5DB0E8BAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C48E03E-7A56-41D6-9CFD-EC5DB0E8BAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C48E03E-7A56-41D6-9CFD-EC5DB0E8BAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FB81FA-9964-48C3-ADE0-46DE849A43E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FB81FA-9964-48C3-ADE0-46DE849A43E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FB81FA-9964-48C3-ADE0-46DE849A43E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FB81FA-9964-48C3-ADE0-46DE849A43E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67CA1B7-F7FA-4E29-A1B6-F0DB588C83CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67CA1B7-F7FA-4E29-A1B6-F0DB588C83CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67CA1B7-F7FA-4E29-A1B6-F0DB588C83CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67CA1B7-F7FA-4E29-A1B6-F0DB588C83CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
