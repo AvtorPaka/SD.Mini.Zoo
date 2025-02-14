@@ -80,12 +80,16 @@ internal sealed class App
         int kindness = 0;
         if (spec == AnimalSpecies.Monkey || spec == AnimalSpecies.Rabbit)
         {
-            Console.WriteLine(">>Input animal kindness [0-10]:");
+            Console.WriteLine(">>Input animal kindness [0-10] :\n(Any number beyond limits will be treated as 0 or 10 respectfully)");
             kindness = ConsoleHelper.ReadInt();
         }
 
         Console.WriteLine(">>Input animal daily food consumption:");
         double foodConsumption = ConsoleHelper.ReadDouble();
+        if (foodConsumption < 0)
+        {
+            throw new ArgumentException("Animal food consumption could not be less than zero.");
+        }
 
         controller.AddAnimal(
             request: new AddAnimalRequest(
