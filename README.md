@@ -23,3 +23,8 @@ cd src/SD.Mini.Zoo.Console && dotnet run
 | **L**         | Animal <- [Herbivore, Predator] <- Specific models e.g Wolf. <br> All services work with abstract type Animal in their declaration but in reality they work with specific models / subtypes of Animal                                                    |
 | **I**         | Segregation of services, models, repositories interfaces <br> e.g IZooKeeperService and IAnimalVetService, IAlive and IInventory                                                                                                                         |
 | **D**         | Controller depend on services interfaces, such as services depend on repositories interfaces e.g <br> ZooKeeperController -> IZooKeeperService -> IAnimalsRepository                                                                                     |
+
+
+## Unit tests coverage rate
+
+![test-coverage](img/coverage-rate.png)
